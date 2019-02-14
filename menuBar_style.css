@@ -1,0 +1,25 @@
+* { margin:0; padding:0; }
+
+.menuBar{
+    background-color: black;
+    height: 55px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    border-radius: 0px 0px 100px 100px;
+    box-shadow: 2px 5px 50px black;
+}
+.menuItem{
+    margin: 0;
+    padding: 0;
+    padding-top: 5px; 
+    width: 50%;
+    align-self: center;
+    color:white;
+    text-align:center;
+    letter-spacing:8px;
+    font-size:35px;
+    font-family:Impact, Charcoal, sans-serif;
+    position: relative;
+}
