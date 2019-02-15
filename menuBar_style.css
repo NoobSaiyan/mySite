@@ -3,11 +3,13 @@
 .menuBar{
     background-color: black;
     height: 55px;
-    width: 100%;
+    width: 96%;
+    margin-right: 2%;
+    margin-left: 2%;
     display: flex;
     flex-flow: column;
     position: absolute;
-    border-radius: 0px 0px 100px 100px;
+    border-radius: 0px 0px 10px 10px;
     box-shadow: 2px 5px 50px black;
 }
 .menuItem{
@@ -15,11 +17,12 @@
     padding: 0;
     padding-top: 5px; 
     width: 50%;
+    height: inherit;
     align-self: center;
     color:white;
     text-align:center;
     letter-spacing:8px;
-    font-size:35px;
+    font-size:32px;
     font-family:Impact, Charcoal, sans-serif;
     position: relative;
 }
