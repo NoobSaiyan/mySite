@@ -1,10 +1,24 @@
 *{margin: 0;padding:0}
 
-.background{
-    height: 100vh;
-    width: 100%;
-    background: lightgray;
+#background{
+    background: linear-gradient(270deg, #19e7b2, #f6f65a, #755af6);
+    background-size:200% 200%;
+    
+    -webkit-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @keyframes AnimationName { 
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
 }
+
 #container{
   overflow: hidden;
   height: 710px;
@@ -48,7 +62,6 @@
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 70px;
-    background-color: yellow;
     padding: 5px;
 }
 
