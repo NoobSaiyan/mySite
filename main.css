@@ -1,8 +1,8 @@
 *{margin: 0;padding:0}
 
 #background{
-    background: linear-gradient(270deg, #19e7b2, #f6f65a, #755af6);
-    background-size:200% 200%;
+    background: linear-gradient(270deg,cyan,aqua);
+    background-size:100% 100%;
     
     -webkit-animation: AnimationName 30s ease infinite;
     animation: AnimationName 30s ease infinite;
@@ -24,6 +24,7 @@
   height: 710px;
   width: 950px;
   margin:auto;
+  background-color: 
 }
 
 .wrapper{
@@ -35,6 +36,7 @@
   float: left;
   height: 510px;
   width: 950px;
+  border-radius: 10px 10px 10px 10px;
 }
 
 @-webkit-keyframes slide {
@@ -59,14 +61,28 @@
 .about{
     height: auto;
     width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
     margin-top: 70px;
-    padding: 5px;
+    padding: 25px;
+    background-color: black;
+    box-shadow: 10px 10px 20px black;
+    border-radius: 10px 10px 10px 10px;
 }
 
 
-.text{
+.text_div{
     font-family:"Lucida Sans Typwriter", Monaco, monospace;
     font-size: 25px;
+    color: aqua;
+}
+
+.text{
+    margin-left: 5%;
+    font-size: 30px;
+    text-shadow: 10px;
+    background-color: brown;
+}
+#text{
+    text
 }
