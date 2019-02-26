@@ -1,7 +1,7 @@
 *{margin: 0;padding:0}
 
 #background{
-    background: linear-gradient(270deg,cyan,aqua);
+    background: linear-gradient(0deg,cyan,lightblue);
     background-size:100% 100%;
     
     -webkit-animation: AnimationName 30s ease infinite;
@@ -63,7 +63,7 @@
     width: 90%;
     margin-left: 3%;
     margin-right: 3%;
-    margin-top: 70px;
+    margin-top: 30px;
     padding: 25px;
     background-color: black;
     box-shadow: 10px 10px 20px black;
@@ -79,9 +79,11 @@
 
 .text{
     margin-left: 5%;
-    font-size: 30px;
+    margin-right: 5%;
+    font-size: 60px;
     text-shadow: 10px;
-    background-color: brown;
+    font-family:"Lucida Sans Typwriter", Monaco, monospace;
+    margin-top: 80px;
 }
 #text{
     text
